@@ -1,8 +1,8 @@
-// import { apiKey } from "./util.js";
+//import { apiKey } from "./util.js";
 
-// import apiKey from "./util.js";
-// import { apiKey, abc as content } from "./util.js";
-// import * as util from "./util.js";
+//import apiKey from "./util.js";
+//import { apiKey, abc as content } from "./util.js";
+//import * as util from "./util.js";
 
 // console.log(util.apiKey);
 // console.log(content);
@@ -154,3 +154,22 @@ const hobbies = ["Sports", "Cooking"];
 // hobbies = [];
 hobbies.push("Working");
 console.log(hobbies);
+
+
+// function transformToObjects(numberArray) {
+//     // Todo: Add your logic
+//     // should return an array of objects
+//     let objArray = numberArray.map((arr) => {
+//         return {val: arr};
+//     })
+    
+//     return objArray;
+// }
+
+// let numArray = [1, 2, 3];
+// let newObj = transformToObjects(numArray);
+// console.log(newObj);
+
+setTimeout(() => {
+    console.log("timed out");
+}, 1000);
